@@ -59,8 +59,6 @@ const scrapeIndeed = async (QUERY) => {
                     title: QUERY,
                     comapny_name: a[1] == "new" ? a[2] : a[1],
                     location: a[1] == "new" ? a[3] : a[2],
-                    //description: a[1] == "new" ? beg1 : beg2,
-                    //date: a[1] == 'new' ? beg1.slice(beg1.length - 18, beg1.length - 1) : beg2.slice(beg2.length - 19, beg2.length - 1),
                     'URL': jobUrl
                 };
 
